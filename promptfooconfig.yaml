@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: 'Getting started'
+env:
+  OPENAI_API_KEY: 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
+
+providers: [openai:gpt-4.1, openai:o4-mini]
+
+prompts: prompt.txt
+
+tests: tests*.yaml
